@@ -1,12 +1,14 @@
 import React from "react";
 //import components
 import AboutSection from "../components/AboutSection";
+import ServicesSection from "../components/ServicesSection";
 
 function AboutUs(props) {
   return (
-    <div>
+    <>
       <AboutSection></AboutSection>
-    </div>
+      <ServicesSection></ServicesSection>
+    </>
   );
 }
 
