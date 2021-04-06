@@ -6,9 +6,19 @@ import athlete from "../img/athlete-small.png";
 import theracer from "../img/theracer-small.png";
 import goodtimes from "../img/goodtimes-small.png";
 
+// animation
+import { motion } from "framer-motion";
+import { pageAnimation } from "../animation";
+
 function OurWork(props) {
   return (
-    <Work>
+    <Work
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+      style={{ background: "#fff" }}
+    >
       <Movie>
         <h2>The Athlete</h2>
         <div className="line"></div>
@@ -36,7 +46,7 @@ function OurWork(props) {
   );
 }
 
-const Work = styled.div`
+const Work = styled(motion.div)`
   padding: 5rem 10rem;
   h2 {
     padding: 1rem 0rem;
