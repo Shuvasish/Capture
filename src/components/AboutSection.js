@@ -4,6 +4,7 @@ import { About, Description, Hide, Image } from "../styles";
 //motions
 import { motion } from "framer-motion";
 import { titleAnim, fade, imageAnim } from "../animation";
+import Wave from "./Wave";
 
 function AboutSection(props) {
   return (
@@ -31,6 +32,7 @@ function AboutSection(props) {
       <Image>
         <motion.img src={home1} variants={imageAnim} alt="gus with a camera" />
       </Image>
+      <Wave></Wave>
     </About>
   );
 }
