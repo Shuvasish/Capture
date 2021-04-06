@@ -12,7 +12,7 @@ function OurWork(props) {
       <Movie>
         <h2>The Athlete</h2>
         <div className="line"></div>
-        <Link to="">
+        <Link to="work/the-athlete">
           <img src={athlete} alt="athlete" />
         </Link>
       </Movie>
@@ -20,7 +20,7 @@ function OurWork(props) {
       <Movie>
         <h2>The Racer</h2>
         <div className="line"></div>
-        <Link to="">
+        <Link to="work/the-racer">
           <img src={theracer} alt="theracer" />
         </Link>
       </Movie>
@@ -28,7 +28,7 @@ function OurWork(props) {
       <Movie>
         <h2>The Goodtimes</h2>
         <div className="line"></div>
-        <Link to="">
+        <Link to="work/good-times">
           <img src={goodtimes} alt="goodtimes" />
         </Link>
       </Movie>
