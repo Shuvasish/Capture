@@ -7,7 +7,9 @@ function Nav(props) {
   return (
     <StyledNav>
       <h1>
-        <Link to="/">Capture</Link>
+        <Link id="logo" to="/">
+          Capture
+        </Link>
       </h1>
       <ul>
         <li>
