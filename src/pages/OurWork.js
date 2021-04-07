@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import athlete from "../img/athlete-small.png";
 import theracer from "../img/theracer-small.png";
 import goodtimes from "../img/goodtimes-small.png";
+import ScrollTop from "../components/ScrollTop";
 
 // animation
 import { motion } from "framer-motion";
@@ -66,6 +67,7 @@ function OurWork(props) {
           <img src={goodtimes} alt="goodtimes" />
         </Link>
       </Movie>
+      <ScrollTop></ScrollTop>
     </Work>
   );
 }
