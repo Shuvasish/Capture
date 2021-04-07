@@ -77,6 +77,9 @@ const Cards = styled.div`
   display: flex;
   /* background: red; */
   flex-wrap: wrap;
+  @media (max-width: 1300px) {
+    justify-content: center;
+  }
 `;
 const Card = styled.div`
   flex-basis: 20rem;
